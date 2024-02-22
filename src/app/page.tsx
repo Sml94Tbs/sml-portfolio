@@ -1,7 +1,5 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div>Bonjour</div>
+    <h1 className=" text-[3.2rem] text-white flex justify-center items-center font-[600]">En chargement</h1>
   );
 }
