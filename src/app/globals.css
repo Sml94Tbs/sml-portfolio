@@ -26,3 +26,23 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
+
+section {
+  min-height: 100vh;
+  padding: 10rem 9% 2rem;
+}
+
+@media not all and (min-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+
+  section {
+    padding: 10rem 3% 2rem
+  }
+
+  footer {
+    padding: 2rem 3%;
+  }
+
+}
