@@ -4,7 +4,7 @@ import { FaArrowUp } from "react-icons/fa";
 const Footer = () => {
     return (
         <footer className=" flex justify-between items-center flex-wrap p-[2rem_9%] bg-[#272627]">
-            <p className=" text-[1.6rem]">
+            <p className=" text-white text-[1.6rem]">
                 @COPYRIGHT SML | All Right Reserved.
             </p>
             <div>
