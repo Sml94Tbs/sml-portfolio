@@ -1,7 +1,12 @@
-export default function Home() {
+import Accueil from '@/app/components/contents/home';
+
+export default function Pages() {
+
   return (
-    <section>
-      <h1 className=" text-[3.2rem] text-white flex justify-center items-center">En chargement</h1>
-    </section>
+    <main>
+      <div id="accueil">
+        <Accueil />
+      </div>
+    </main>
   );
 }
