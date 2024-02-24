@@ -1,4 +1,4 @@
-import { Poppins } from "@next/font/google";
+import { Poppins } from "next/font/google";
 import type { Metadata } from "next";
 import Footer from "./components/layouts/footer";
 import Header from "./components/layouts/header";
