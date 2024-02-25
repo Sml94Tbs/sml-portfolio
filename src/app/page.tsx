@@ -1,5 +1,12 @@
-export default function Home() {
+import Accueil from '@/app/components/contents/home';
+
+export default function Pages() {
+  const punycode = require('punycode');
   return (
-    <h1 className=" text-[3.2rem] text-white flex justify-center items-center font-[600]">En chargement</h1>
+    <main>
+      <div id="accueil">
+        <Accueil />
+      </div>
+    </main>
   );
 }
