@@ -28,7 +28,7 @@ const Header = () => {
                     <Link href={"/#contact"} className='m-[3rem_0] block text-white no-underline text-[2rem] font-[500] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.3s] hover:text-[#8a2be2]'>Contact</Link>
                 </nav>
             )}
-            <nav className='inline-block max-lg:hidden max-lg:top-full max-lg:absolute max-lg:p-[1rem_3%] max-lg:border-t-[.1rem]'>
+            <nav className='inline-block max-lg:hidden '>
                 <Link href={"/#accueil"} className='ml-[3.5rem] text-white no-underline text-[1.8rem] font-[500] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.3s] hover:text-[#8a2be2]'>Accueil</Link>
                 <Link href={"/#about"} className='ml-[3.5rem] text-white no-underline text-[1.8rem]	font-[500] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.3s] hover:text-[#8a2be2]'>A propos</Link>
                 <Link href={"/#skill"} className='ml-[3.5rem] text-white no-underline text-[1.8rem]	font-[500] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.3s] hover:text-[#8a2be2]'>Compétence</Link>
