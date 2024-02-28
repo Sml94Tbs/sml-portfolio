@@ -1,5 +1,6 @@
 import Accueil from '@/app/components/contents/home';
 import About from '@/app/components/contents/about';
+import Skill from '@/app/components/contents/skill';
 
 export default function Pages() {
   const punycode = require('punycode');
@@ -10,6 +11,9 @@ export default function Pages() {
       </div>
       <div id='about'>
         <About />
+      </div>
+      <div id='skill'>
+        <Skill />
       </div>
     </main>
   );
