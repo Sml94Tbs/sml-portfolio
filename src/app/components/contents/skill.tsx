@@ -1,6 +1,9 @@
 'use client'
 import CardBox from "@/app/components/cardBox";
-import { FaHtml5 } from "react-icons/fa";
+import { FaBootstrap, FaCss3, FaHtml5, FaLaravel, FaPhp, FaReact } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 
 const Skill = () => {
     return (
@@ -13,7 +16,45 @@ const Skill = () => {
                     nom={"Html"}
                     level="70%"
                 />
-
+                <CardBox
+                    icon={<FaCss3 />}
+                    nom={"CSS"}
+                    level="50%"
+                />
+                <CardBox
+                    icon={<IoLogoJavascript />}
+                    nom={"Javascript"}
+                    level="40%"
+                />
+                <CardBox
+                    icon={<FaPhp />}
+                    nom={"PHP"}
+                    level="50%"
+                />
+                <CardBox
+                    icon={<FaBootstrap />}
+                    nom={"Bootstrap"}
+                    level="50%"
+                />
+                <CardBox
+                    icon={<FaReact />}
+                    nom={"React.js"}
+                    level="30%"
+                />
+                <CardBox
+                    icon={<FaLaravel />}
+                    nom={"Laravel"}
+                    level="30%"
+                /><CardBox
+                    icon={<SiTailwindcss />}
+                    nom={"TailwindCSS"}
+                    level="60%"
+                />
+                <CardBox
+                    icon={<TbBrandNextjs />}
+                    nom={"Next.js"}
+                    level="40%"
+                />
 
             </div>
         </section>
