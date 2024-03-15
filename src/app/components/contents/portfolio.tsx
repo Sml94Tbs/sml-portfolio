@@ -8,9 +8,10 @@ const Portfolio = () => {
             <div className=" grid grid-cols-[repeat(3,_1fr)]">
                 <PortfolioBox
                 titre={"portfolio"}
-                image={"#"}
+                image={"/"}
                 height={1800}
                 width={1200}
+                link={"/"}
                 />
             </div>
         </section>
