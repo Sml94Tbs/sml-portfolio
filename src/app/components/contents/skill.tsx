@@ -12,36 +12,6 @@ const Skill = () => {
             <p className=" text-[2.4rem] text-center mb-[2.5rem] font-[500] text-white">Vous pourrez vous faire une idée de mon niveau actuel.</p>
             <div className=" flex justify-center items-center flex-wrap gap-[2rem]">
                 <CardBox
-                    icon={<FaHtml5 />}
-                    nom={"Html"}
-                    level="70%"
-                />
-                <CardBox
-                    icon={<FaCss3 />}
-                    nom={"CSS"}
-                    level="50%"
-                />
-                <CardBox
-                    icon={<IoLogoJavascript />}
-                    nom={"Javascript"}
-                    level="40%"
-                />
-                <CardBox
-                    icon={<FaPhp />}
-                    nom={"PHP"}
-                    level="50%"
-                />
-                <CardBox
-                    icon={<FaBootstrap />}
-                    nom={"Bootstrap"}
-                    level="50%"
-                />
-                <CardBox
-                    icon={<FaReact />}
-                    nom={"React.js"}
-                    level="30%"
-                />
-                <CardBox
                     icon={<FaLaravel />}
                     nom={"Laravel"}
                     level="30%"
@@ -55,7 +25,6 @@ const Skill = () => {
                     nom={"Next.js"}
                     level="40%"
                 />
-
             </div>
         </section>
     )
