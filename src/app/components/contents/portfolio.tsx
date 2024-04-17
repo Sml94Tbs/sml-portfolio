@@ -5,13 +5,27 @@ const Portfolio = () => {
         <section className=" bg-[#be6b6b15]">
             <h2 className=" text-center text-[4.5rem] font-[700] text-white mb-[4rem]">Mon Portfolio</h2>
             <h4 className=" text-[2.4rem] text-center font-[700] text-white mb-[2rem]">Sur cette section vous pourrez retrouver mes travaux</h4>
-            <div className=" grid grid-cols-[repeat(3,_1fr)]">
+            <div className=" grid grid-cols-[repeat(3,_1fr)] items-center gap-[2.5rem]">
                 <PortfolioBox
-                titre={"portfolio"}
-                image={"/"}
-                height={1800}
-                width={1200}
-                link={"/"}
+                    titre={"Ma veille technologique"}
+                    image={"/images/veille-renpy.jpg"}
+                    height={1890}
+                    width={1417}
+                    link={"/"}
+                />
+                <PortfolioBox
+                    titre={"Mes projets"}
+                    image={"/images/93715-Tsukihime.jpg"}
+                    height={1890}
+                    width={1417}
+                    link={"/"}
+                />
+                <PortfolioBox
+                    titre={"Mes projets"}
+                    image={"/images/stage-image.jpg"}
+                    height={1890}
+                    width={1417}
+                    link={"/"}
                 />
             </div>
         </section>
