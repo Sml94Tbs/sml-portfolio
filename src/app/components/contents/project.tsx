@@ -43,7 +43,7 @@ const Project = () => {
                 />
             </div>
             <div className=" flex items-center justify-center mt-[2rem]">
-                <Link className=" flex items-center gap-[1rem] p-[2rem] text-white bg-[#c184db] rounded-[1rem] text-[2rem] font-[600]" href={"/#portfolio"}><FaLongArrowAltLeft />Retour</Link>
+                <Link className=" flex items-center gap-[1rem] p-[2rem] text-white bg-[#c184db] rounded-[1rem] text-[2rem] font-[600] hover:shadow-[0_0_20px_#ff91f6] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.5s]" href={"/#portfolio"}><FaLongArrowAltLeft />Retour</Link>
             </div>
         </section>
     );
