@@ -18,7 +18,7 @@ const Portfolio = () => {
                     image={"/images/93715-Tsukihime.jpg"}
                     height={1890}
                     width={1417}
-                    link={"/"}
+                    link={"project"}
                 />
                 <PortfolioBox
                     titre={"Mes stages"}
