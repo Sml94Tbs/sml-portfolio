@@ -1,18 +1,49 @@
 import ProjectBox from "@/app/components/projectBox";
-import { FaHtml5 } from "react-icons/fa";
+import Link from "next/link";
+import { FaHtml5, FaLaravel, FaLongArrowAltLeft, FaPhp,FaCss3 } from "react-icons/fa";
+import { SiCsharp } from "react-icons/si";
 
 const Project = () => {
-    return(
+    return (
         <section>
             <h1 className=" text-center text-[4.5rem] font-[700] text-white mb-[2rem]">Mes projets</h1>
-            <h5 className=" text-white text-center text-[1.6rem]">Vous pouvez retrouver tout mes project que j&apos;ai pu réaliser</h5>
-            <div className=" flex flex-wrap">
+            <h5 className=" text-white text-center text-[1.6rem] mb-[3rem]">Vous pouvez retrouver tout mes project que j&apos;ai pu réaliser</h5>
+            <div className=" grid grid-cols-[repeat(3,_1fr)] items-center gap-[2.5rem] max-lg:grid-cols-[repeat(2,_1fr)] max-sm:grid-cols-[1fr]">
                 <ProjectBox
-                image={"images/Capture d'écran 2024-04-19 182620.png"}
-                icon={<FaHtml5/>}
-                height={100}
-                width={100}
+                    project={"Site Bonbon"}
+                    image={"/images/Capture d'écran 2024-04-19 182620.png"}
+                    icon={<><FaHtml5 /><FaCss3 /> <FaPhp /></>}
+                    height={1919}
+                    width={1079}
+                    link={"#"}
                 />
+                <ProjectBox
+                    project={"Projet SicilyLines"}
+                    image={"/images/sicily-C.png"}
+                    icon={<><SiCsharp /></>}
+                    height={1919}
+                    width={1079}
+                    link={"https://github.com/namluan/SicilyLines-C"}
+                />
+                <ProjectBox
+                    project={"Projet SicilyLines"}
+                    image={"/images/Capture d'écran 2024-04-15 231535.png"}
+                    icon={<><FaHtml5 /><FaPhp />  <FaLaravel /></>}
+                    height={1919}
+                    width={1079}
+                    link={"https://github.com/Sml94Tbs/sicily"}
+                />
+                <ProjectBox
+                    project={"Projet Gestion École"}
+                    image={"/images/Capture d'écran 2023-11-20 222514.png"}
+                    icon={<><FaHtml5 /><FaCss3 /> <FaPhp />  <FaLaravel /></>}
+                    height={1919}
+                    width={1079}
+                    link={"https://github.com/Sml94Tbs/Laravel-Project---Gestion-Ecole"}
+                />
+            </div>
+            <div className=" flex items-center justify-center mt-[2rem]">
+                <Link className=" flex items-center gap-[1rem] p-[2rem] text-white bg-[#c184db] rounded-[1rem] text-[2rem] font-[600] hover:shadow-[0_0_20px_#ff91f6] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.5s]" href={"/#portfolio"}><FaLongArrowAltLeft />Retour</Link>
             </div>
         </section>
     );
