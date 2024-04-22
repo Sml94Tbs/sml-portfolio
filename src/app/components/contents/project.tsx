@@ -32,7 +32,7 @@ const Project = () => {
                     icon={<><FaHtml5 /><FaCss3 /> <IoLogoJavascript /></>}
                     height={1919}
                     width={1079}
-                    link={"#"}
+                    link={"https://sml94tbs.github.io/Portfolio-SML/"}
                 />
                 <ProjectBox
                     project={"Projet Gestion École"}
