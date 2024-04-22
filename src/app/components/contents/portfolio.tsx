@@ -25,7 +25,7 @@ const Portfolio = () => {
                     image={"/images/stage-image.jpg"}
                     height={1890}
                     width={1417}
-                    link={"/"}
+                    link={"stage"}
                 />
             </div>
         </section>
