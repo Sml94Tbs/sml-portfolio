@@ -11,7 +11,7 @@ const Portfolio = () => {
                     image={"/images/veille-renpy.jpg"}
                     height={1890}
                     width={1417}
-                    link={"/"}
+                    link={"veille"}
                 />
                 <PortfolioBox
                     titre={"Mes projets"}
