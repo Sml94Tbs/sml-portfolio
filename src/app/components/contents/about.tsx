@@ -26,7 +26,7 @@ const About = () => {
                                 <Timeline
                                     titre={"BTS SIO Option SLAM"}
                                     date={"2022-2024"}
-                                    lieu={"Cachan"}
+                                    lieu={"Lycée Polyvalent de Cachan"}
                                 />
                             </div>
                         </div>
@@ -36,18 +36,18 @@ const About = () => {
                         <div className="border-l-[0.2px] border-solid">
                             <div className=" pl-[2.7rem] relative">
                                 <Timeline
-                                    titre={"BUT"}
-                                    date={"2020"}
-                                    lieu={"Fresnes"}
+                                    titre={"ECEFRAM"}
+                                    date={"2023"}
+                                    lieu={""}
                                 />
                             </div>
                         </div>
                         <div className="border-l-[0.2px] border-solid">
                             <div className=" pl-[2.7rem] relative">
                                 <Timeline
-                                    titre={"Carrefour"}
-                                    date={"2021-2022"}
-                                    lieu={"Centre Commercial Bercy 2"}
+                                    titre={"Sarl Digiplace France"}
+                                    date={"2024"}
+                                    lieu={"35 Av. Joffre, 94160 Saint-Mandé"}
                                 />
                             </div>
                         </div>
