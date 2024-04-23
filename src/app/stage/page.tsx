@@ -10,15 +10,17 @@ export default function stage(){
             <div className=" grid grid-cols-[repeat(2,_1fr)] justify-center gap-[2.5rem] max-sm:grid-cols-[1fr]">
             <StageCard
             titre={"Stage 1e année"}
-            image={"/images/image (1) ff.png"}
+            image={"/images/Capture d'écran 2024-04-23 204504.png"}
             width={1079}
             height={1919}
+            link={"stage/one"}
             />
             <StageCard
             titre={"Stage 2e année"}
             image={"/images/image (1) ff.png"}
             width={1079}
             height={1919}
+            link={"stage/two"}
             />
             </div>
             <div className=" flex items-center justify-center mt-[2rem]">
