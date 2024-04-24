@@ -36,7 +36,7 @@ const Accueil = () => {
                     <Link target="_blank" href={"https://www.linkedin.com/in/samuel-mayamba-85202a271/"} className='text-white w-[4rem] h-[4rem] border-[#fff] border-2 border-solid rounded-[50%] text-[2rem] no-underline inline-flex items-center m-[3rem_1.5rem_3rem_0] justify-center hover:bg-[#2f1c5279] hover:text-[#d48aff] hover:shadow-[0_0_20px_#ff91f6] hover:border-[#ffc3fa]  transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.5s]'><FaLinkedin /></Link>
 
                 </div>
-                <Link target="_blank" href={"#"} download={"Samuel-Mayamba-CV"} className=' text-white inline-block p-[1.2rem_2.8rem] bg-[#c57d9b] rounded-[4rem] shadow-[0_0_10px_#f8b6ea] text-[1.6rem] no-underline tracking-widest font-[600]'>Télécharger mon cv</Link>
+                <Link target="_blank" href={"/Samuel_Mayamba_CV.pdf"} download={"Samuel-Mayamba-CV"} className=' text-white inline-block p-[1.2rem_2.8rem] bg-[#c57d9b] rounded-[4rem] shadow-[0_0_10px_#f8b6ea] text-[1.6rem] no-underline tracking-widest font-[600]'>Télécharger mon cv</Link>
             </div>
         </section>
     )
