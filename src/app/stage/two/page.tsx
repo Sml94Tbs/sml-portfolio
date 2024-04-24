@@ -13,6 +13,11 @@ export default function page() {
             </div>
             <div>
                 <iframe className=" w-full h-[70rem] shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src="https://www.solutionmonteescalier.com/" frameBorder="0"></iframe>
+                <div className=" m-[5rem_0]">
+                    <h5 className=" text-white italic text-[3rem] max-lg:text-[2.5rem] m-[5rem_0] font-[600]">Maquette du site : </h5>
+                    <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/image (1) ff.png"} alt="Trello" width={1079} height={1919} />
+
+                </div>
             </div>
             <div className=" m-[5rem_0]">
                 <h5 className=" text-white underline text-[3rem] max-lg:text-[2.5rem] font-[600]">Collaborateur(trice) : </h5>
@@ -34,7 +39,15 @@ export default function page() {
                         <p className=" text-[2.5rem] text-white">GitLab</p>
                     </div>
                 </div>
+                <h5 className=" text-white italic text-[2.5rem] max-lg:text-[2rem] m-[5rem_0] font-[600]">Trello :</h5>
+                    
+                <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/plan de travaillle.png"} alt="Trello" width={1079} height={1919} />
+                <h5 className=" text-white italic text-[2.5rem] max-lg:text-[2rem] m-[5rem_0] font-[600]">GitLab :</h5>
+                    
                 <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/image (3).png"} alt="Trello" width={1079} height={1919} />
+
+
+
             </div>
             <div className=" border border-solid border-[#ffffff6a] m-[5rem]"></div>
             <div className=" m-[5rem_0]">
