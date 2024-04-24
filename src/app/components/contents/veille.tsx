@@ -45,6 +45,20 @@ const Veille = () => {
             text={"xAI dévoile aussi divers exemples montrant que la version 1.5V de Grok arrive à : Transformer un diagramme en code Python ;; Calculer les calories ..."}
             logo={<><FaPython /></>}
             />
+            <VeilleBox
+            lien={"https://www.elektormagazine.fr/articles/simplifier-le-developpement-python-sur-raspberry-pi-avec-miniforge"}
+            titre={" Simplifier le développement Python sur Raspberry Pi avec Miniforge"}
+            auteur={"Les Numériques"}
+            text={"Gérez facilement des environnements Python sur votre Raspberry Pi avec Miniforge, une solution pratique démontrée par Dhairya Parikh."}
+            logo={<><FaPython /></>}
+            />
+            <VeilleBox
+            lien={"https://www.channelnews.fr/des-paquets-python-pypi-infectes-par-des-logiciels-malveillants-133957"}
+            titre={"Des paquets Python PyPI infectés par des logiciels malveillants"}
+            auteur={"Les Numériques"}
+            text={"Plus de 170.000 personnes pourraient être touchées par une attaque de la chaîne d'approvisionnement visant la communauté GitHub du serveur..."}
+            logo={<><FaPython /></>}
+            />
             
         </div>
         <div className=" flex items-center justify-center mt-[2rem]">
