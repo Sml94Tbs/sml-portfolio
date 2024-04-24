@@ -92,15 +92,6 @@ export default function page() {
                     <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/Capture d'écran 2024-04-24 195730.png"} alt="Trello" width={1079} height={1919} />
                 </div>
             </div>
-            <div className=" border border-solid border-[#ffffff6a] m-[5rem]"></div>
-            <div className=" m-[5rem_0]">
-                <h5 className=" text-white underline text-[3rem] max-lg:text-[2.5rem] font-[600]">Mission 7 : </h5>
-                <p className=" text-white text-[1.6rem] italic mb-[5rem]">CRUD en Front-End</p>
-                <div className="grid grid-cols-[repeat(2,_1fr)] gap-[2rem] max-lg:grid-cols-[repeat(1,_1fr)]">
-                    <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/Capture d'écran 2024-04-24 195642.png"} alt="Trello" width={1079} height={1919} />
-                    <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/Capture d'écran 2024-04-24 195730.png"} alt="Trello" width={1079} height={1919} />
-                </div>
-            </div>
             <div className=" flex items-center justify-center mt-[2rem]">
                 <Link className=" flex items-center gap-[1rem] p-[2rem] text-white bg-[#c184db] rounded-[1rem] text-[2rem] font-[600] hover:shadow-[0_0_20px_#ff91f6] transition-[cubic-bezier(0.25_0.1_0.25_1.0)] duration-[.5s]" href={"/stage"}><FaLongArrowAltLeft />Retour</Link>
             </div>
