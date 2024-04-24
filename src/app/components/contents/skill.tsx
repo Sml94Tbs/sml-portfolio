@@ -1,6 +1,6 @@
 'use client'
 import CardBox from "@/app/components/cardBox";
-import { FaBootstrap, FaCss3, FaHtml5, FaLaravel, FaPhp, FaReact, FaAndroid } from "react-icons/fa";
+import { FaBootstrap, FaCss3, FaHtml5, FaLaravel, FaPhp, FaReact, FaAndroid, FaPython } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTailwindcss, SiCsharp } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -33,6 +33,11 @@ const Skill = () => {
                 <CardBox
                     icon={<SiCsharp />}
                     nom={"C#"}
+                    level="40%"
+                />
+                <CardBox
+                    icon={<FaPython />}
+                    nom={"Python"}
                     level="40%"
                 />
             </div>
