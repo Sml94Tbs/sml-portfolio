@@ -1,3 +1,4 @@
+import StageLink from "@/app/components/stageLink";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLongArrowAltLeft } from "react-icons/fa";
@@ -7,6 +8,8 @@ export default function page() {
         <section>
             <h1 className=" text-white text-[4.5rem] font-[700] text-center">Mon stage en 2e année</h1>
             <h4 className=" text-[2.5rem] font-[500] text-white text-center">Pour Digiplace</h4>
+            <p className=" text-center text-white text-[1.9rem] mb-[2rem]">Vous pouvez regarder mes compte rendus ici :</p>
+            <StageLink />
             <div className=" m-[5rem_0]">
                 <h5 className=" text-white underline text-[3rem] font-[600] max-lg:text-[2.5rem]">Objectif : </h5>
                 <p className=" text-white text-[1.6rem] italic">Réaliser la refonte du site SolutionEscalier</p>
@@ -40,10 +43,10 @@ export default function page() {
                     </div>
                 </div>
                 <h5 className=" text-white italic text-[2.5rem] max-lg:text-[2rem] m-[5rem_0] font-[600]">Trello :</h5>
-                    
+
                 <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/plan de travaillle.png"} alt="Trello" width={1079} height={1919} />
                 <h5 className=" text-white italic text-[2.5rem] max-lg:text-[2rem] m-[5rem_0] font-[600]">GitLab :</h5>
-                    
+
                 <Image className=" shadow-[0_0_20px_#ff91f6] rounded-[1.6rem]" src={"/images/image (3).png"} alt="Trello" width={1079} height={1919} />
 
 
