@@ -35,6 +35,14 @@ const Project = () => {
                     link={"https://sml94tbs.github.io/Portfolio-SML/"}
                 />
                 <ProjectBox
+                    project={"TP-Banque"}
+                    image={"/images/nbc8i22ia3091.png"}
+                    icon={<><SiCsharp /></>}
+                    height={1919}
+                    width={1079}
+                    link={"https://github.com/Sml94Tbs/TP-BANQUE"}
+                />
+                <ProjectBox
                     project={"Projet Gestion École"}
                     image={"/images/Capture d'écran 2023-11-20 222514.png"}
                     icon={<><FaHtml5 /><FaCss3 /> <FaPhp />  <FaLaravel /></>}
