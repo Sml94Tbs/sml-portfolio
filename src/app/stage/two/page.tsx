@@ -10,6 +10,7 @@ export default function page() {
             <h4 className=" text-[2.5rem] font-[500] text-white text-center">Pour Digiplace</h4>
             <p className=" text-center text-white text-[1.9rem] mb-[2rem]">Vous pouvez regarder mes compte rendus ici :</p>
             <StageLink />
+            <Link target="_blank" className=" text-center text-white font-[500] text-[2.5rem] hover:underline" href={"https://www.solutionmonteescalier.com/"}>Lien du site Original</Link>
             <div className=" m-[5rem_0]">
                 <h5 className=" text-white underline text-[3rem] font-[600] max-lg:text-[2.5rem]">Objectif : </h5>
                 <p className=" text-white text-[1.6rem] italic">Réaliser la refonte du site SolutionEscalier</p>

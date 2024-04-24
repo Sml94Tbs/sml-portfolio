@@ -6,6 +6,7 @@ export default function page() {
         <section>
             <h1 className=" text-[4.5rem] font-[700] text-white text-center mb-[3rem] max-lg:text-[3.5rem]">Mon stage en première année</h1>
             <h4 className=" text-[2.5rem] font-[500] text-white text-center">Pour l&apos;association ECEFRAM</h4>
+            <Link target="_blank" className=" text-center text-white font-[500] text-[2.5rem] hover:underline" href={"https://ecefram.fr/"}>Lien du site Original</Link>
             <div className=" m-[5rem_0]">
                 <h5 className=" text-white underline text-[3rem] font-[600] max-lg:text-[2.5rem]">Objectif : </h5>
                 <p className=" text-white text-[1.6rem] italic">Refaire le site de l&apos;association</p>
